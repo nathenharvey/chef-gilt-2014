@@ -1,0 +1,14 @@
+{
+  "transport": "scp",
+  "hostname": "YOUR_IP_ADDRESS_HERE",
+  "port": "22",
+  "username": "chef",
+  "password": "YOUR_PASSWORD_HERE",
+  "target": "/home/chef",
+  "ignore": [
+    ".chefdk/**",
+    ".chefdk/**/.*",
+    ".gem/**"
+  ],
+  "uploadOnSave": true
+}
