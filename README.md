@@ -4,7 +4,7 @@ Chef is an automation platform that transforms infrastructure into code. This is
 
 ## Streaming Live
 
-This class will be live streamed to Youtube.  [Watch now](http://youtu.be/Y5sB62V54bc).
+This class will be live streamed to Youtube.  [Part 1](http://youtu.be/Y5sB62V54bc).  [Watch Part 2 now](http://youtu.be/MFNhDEUdnB4).
 
 ### Who should attend:
 Anyone responsible for managing infrastructure especially those who are interested in automating the provisioning and management of said infrastructure using state-of-the-art tools and practices.
