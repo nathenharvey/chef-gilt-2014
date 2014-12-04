@@ -10,14 +10,25 @@ describe 'apache' do
     expect(package "httpd").to be_installed
   end
 
-  it "is running"
+  it "is running" do
+    expect(service "httpd").to be_running
+  end
 
-  it "is responding to http requests"
+  it "is responding to http requests" do
+    expect(command("curl http://localhost").exit_status).to eq 0
+  end
 
-  it "is displaying the proper home page"
+  it "is displaying the proper home page" do
+    expect(command("curl http://localhost").stdout).to match /hello/i
+  end
 
-  it "is running on the default port"
+  it "is running on the default port" do
+    expect(port(80)).to be_listening.with("tcp")
+  end
 end
+
+
+
 
 
 
