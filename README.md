@@ -2,6 +2,10 @@
 
 Chef is an automation platform that transforms infrastructure into code. This is a hands-on tutorial that will cover the basics that everyone needs to know about how to use Chef for system and infrastructure management.
 
+## Streaming Live
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/Y5sB62V54bc" frameborder="0" allowfullscreen></iframe>
+
 ### Who should attend:
 Anyone responsible for managing infrastructure especially those who are interested in automating the provisioning and management of said infrastructure using state-of-the-art tools and practices.
 
